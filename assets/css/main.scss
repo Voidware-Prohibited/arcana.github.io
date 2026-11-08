@@ -36,3 +36,19 @@ $brand-color: map-get($brand-colors, "orangered");
 $content-width: {{ site.content_width | default: '920px' }};
 
 @import "yat";
+
+.site-brand {
+  line-height: $header-height;
+  margin-right: 50px;
+
+  .site-brand-inner {
+    @include relative-font-size(1.65);
+    font-weight: $base-font-weight * 1.5;
+    letter-spacing: -1px;
+    transition: 0.1s filter color;
+
+  }
+  .site-favicon {
+    transform: translateY(-4px);
+  }
+}

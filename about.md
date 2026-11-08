@@ -1,6 +1,6 @@
 ---
-layout: framework
-title: About
+layout: articles
+title: "About"
 permalink: /about/
 ---
 
