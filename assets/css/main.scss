@@ -62,3 +62,13 @@ $content-width: {{ site.content_width | default: '920px' }};
     color: $brand-color!important;
     text-decoration: none;
 }
+
+#title-area {
+    flex-grow: 5!important;
+    margin-left: 60px!important;
+    padding-left: 0px!important;
+}
+
+.custom-top-links a .selected {
+  text-decoration: underline;
+}
