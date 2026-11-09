@@ -77,3 +77,15 @@ $content-width: {{ site.content_width | default: '920px' }};
 .navpath {
   border-top: 1px solid #dedede;
 }
+
+.footer-col ul li{
+  font-size: 12px;
+}
+
+.brand .brand-name{
+  font-weight: 400;
+}
+
+.brand .brand-slogan{
+  font-weight: 200;
+}
