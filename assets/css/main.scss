@@ -75,5 +75,5 @@ $content-width: {{ site.content_width | default: '920px' }};
 }
 
 .navpath {
-  border-top: 1px solid var(--separator-color);
+  border-top: 1px solid #dedede;
 }
