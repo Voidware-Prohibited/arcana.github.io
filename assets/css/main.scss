@@ -52,3 +52,13 @@ $content-width: {{ site.content_width | default: '920px' }};
     transform: translateY(-4px);
   }
 }
+
+#projectname a, #projectname a:link, #projectname a:active, #projectname a:visited, #projectname a:focus, #projectname a:hover{
+    text-transform: uppercase;
+    font-size: 23.1px;
+    font-family: Helvetica, Arial, Oswald, sans-serif!important;
+    font-weight: 600!important;
+    letter-spacing: -1px!important;
+    color: $brand-color!important;
+    text-decoration: none;
+}
