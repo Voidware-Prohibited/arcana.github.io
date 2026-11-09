@@ -39,6 +39,7 @@
               <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | upcase | escape }}</a>
               {%- endif -%}
             {%- endfor -%}
+            {%- include extensions/theme-toggle.html -%}
 
             {%- assign name = 'translate_langs' -%}
             {%- include functions.html func='get_value' -%}
@@ -51,7 +52,6 @@
                   {%- include extensions/google-translate.html -%}
               </span>
             {%- endif -%}
-            {%- include extensions/theme-toggle.html -%}
           </div>
         </nav>
       {%- endif -%}
