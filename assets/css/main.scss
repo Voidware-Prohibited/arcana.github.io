@@ -73,3 +73,7 @@ $content-width: {{ site.content_width | default: '920px' }};
   text-decoration: underline;
   text-underline-offset: 0.4em;
 }
+
+.navpath {
+  border-top: 1px solid var(--separator-color);
+}
