@@ -73,3 +73,17 @@ $brand-color: "#903fff";
 #main-menu li:not(#searchBoxPos2) {
     display: none!important;
 }
+
+/* Ensure custom external links follow the same aesthetic flow */
+#main-nav var a, #main-nav a[href^="http"] {
+    font-weight: 500;
+}
+
+/* Optional adjustment to prevent layout breaks on edge-case viewport scales */
+@media (max-width: 768px) {
+    .sm-dox {
+        /* Smooth vertical stack rules inside the mobile drawer */
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+}
