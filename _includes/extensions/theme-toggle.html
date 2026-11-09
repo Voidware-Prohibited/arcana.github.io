@@ -3,14 +3,12 @@
 <script>
     const themeMode = {
         LIGHT: 'light',
-        DARK: 'dark',
-        AUTO: 'auto'
+        DARK: 'dark'
     };
 
     const themeSymbols = {
         [themeMode.LIGHT]: '☀️',
-        [themeMode.DARK]: '🌙',
-        [themeMode.AUTO]: '🌓'
+        [themeMode.DARK]: '🌙'
     };
 
     function saveThemeData(theme) {
@@ -24,50 +22,43 @@
     function updateToggleButton(theme) {
         const toggleBtn = document.getElementById('theme-toggle');
         if (toggleBtn) {
-            toggleBtn.textContent = themeSymbols[theme] || themeSymbols[themeMode.AUTO];
+            toggleBtn.textContent = themeSymbols[theme];
         }
     }
 
     function autoThemeToggle() {
         const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? themeMode.DARK : themeMode.LIGHT;
         document.documentElement.setAttribute('data-theme', systemTheme);
-        updateToggleButton(themeMode.AUTO);
+        updateToggleButton(systemTheme);
     }
 
     function handleThemeToggle() {
         let currentTheme = loadThemeData();
-        let nextTheme;
-
-        if (!currentTheme || currentTheme === themeMode.AUTO) {
-            nextTheme = themeMode.LIGHT;
-        } else if (currentTheme === themeMode.LIGHT) {
-            nextTheme = themeMode.DARK;
-        } else {
-            nextTheme = themeMode.AUTO;
+        
+        // Fallback to system preference if localStorage hasn't been set yet
+        if (!currentTheme) {
+            currentTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? themeMode.DARK : themeMode.LIGHT;
         }
+
+        const nextTheme = currentTheme === themeMode.LIGHT ? themeMode.DARK : themeMode.LIGHT;
 
         saveThemeData(nextTheme);
-
-        if (nextTheme === themeMode.AUTO) {
-            autoThemeToggle();
-        } else {
-            document.documentElement.setAttribute('data-theme', nextTheme);
-            updateToggleButton(nextTheme);
-        }
+        document.documentElement.setAttribute('data-theme', nextTheme);
+        updateToggleButton(nextTheme);
     }
 
     (function initTheme() {
         const savedTheme = loadThemeData();
-        if (!savedTheme || savedTheme === themeMode.AUTO) {
+        if (!savedTheme) {
             autoThemeToggle();
         } else {
             document.documentElement.setAttribute('data-theme', savedTheme);
             updateToggleButton(savedTheme);
         }
 
-        // Watch for system preference changes if in auto mode
+        // Listen for system changes ONLY if the user hasn't explicitly selected a preference yet
         window.matchMedia('(prefers-color-scheme: dark)').addListener(() => {
-            if (loadThemeData() === themeMode.AUTO || !loadThemeData()) {
+            if (!loadThemeData()) {
                 autoThemeToggle();
             }
         });
