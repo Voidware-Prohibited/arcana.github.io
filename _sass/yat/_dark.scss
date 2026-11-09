@@ -53,7 +53,7 @@ html[data-theme="dark"]  {
     .site-brand {
       .site-brand-inner {
         &, &:visited {
-          color: #903fff;
+          color: $brand_color;
         }
       }
     }

@@ -17,7 +17,7 @@ html {
 
       &.site-header {
         .site-brand-inner, .page-link {
-          color: #903fff;
+          color: $brand_color;
           transition: 0.1s color;
         }
 

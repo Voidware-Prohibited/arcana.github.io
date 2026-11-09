@@ -54,10 +54,7 @@ icon_filename: icon.png
 # greatgold: #f2cb05
 # greenblue: #389092
 #
-# brand_color: orangered
-#
-# Custom color as below:
-# brand_color: "#1a8e42"
+brand_color: #903fff
 
 # You can custom selection style
 # selection:
