@@ -69,6 +69,7 @@ $content-width: {{ site.content_width | default: '920px' }};
     padding-left: 0px!important;
 }
 
-.custom-top-links a .selected {
+.custom-top-links a.selected {
   text-decoration: underline;
+  text-underline-offset: 0.4em;
 }
