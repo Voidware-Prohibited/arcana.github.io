@@ -73,7 +73,7 @@ $brand-color: "#903fff";
 }
 
 /* Ensure your custom links remain fully visible at all times */
-#main-nav > ul > li:nth-child(n+7) {
+#main-nav > ul > li:nth-child(n+5) {
     display: inline-block !important;
 }
 
@@ -90,15 +90,15 @@ $brand-color: "#903fff";
 }
 
 /* Hide specific custom links inside the left tree view by matching their text content */
-#nav-tree li[data-label="Home"],
-#nav-tree li[data-label="Guides"],
-#nav-tree li[data-label="API Reference"],
-#nav-tree li[data-label="GitHub"] {
+#nav-tree li[data-label="ABOUT"],
+#nav-tree li[data-label="WIKI"],
+#nav-tree li[data-label="DOCS"],
+#nav-tree li[data-label="LICENSE"] {
     display: none !important;
 }
 
 /* Fallback for older Doxygen versions that don't use data-label */
-#nav-tree-contents li:has(a[href*="yourwebsite.com"]),
-#nav-tree-contents li:has(a[href*="github.com"]) {
+#nav-tree-contents li:has(a[href*="/about"]),
+#nav-tree-contents li:has(a[href*="/wiki"]) {
     display: none !important;
 }
