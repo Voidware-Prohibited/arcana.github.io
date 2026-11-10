@@ -96,3 +96,11 @@ $brand-color: "#903fff";
 #main-nav {
   background-color: white;
 }
+footer {
+    background-color: #f2f2f2;
+}
+
+.footer-content {
+    max-width: 920px;
+    margin: 0 auto;
+}
