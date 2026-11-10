@@ -51,17 +51,13 @@ var NAVTREE =
         [ "Enumerations", "globals_enum.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
-    ] ],
-    [ "ABOUT", "/about", null ],
-    [ "WIKI", "/wiki", null ],
-    [ "DOCS", "/docs", null ],
-    [ "LICENSE", "/license", null ]
+    ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"/about"
+"ArcanaArchitectureSettings_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

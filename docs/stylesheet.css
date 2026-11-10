@@ -89,20 +89,10 @@ $brand-color: "#903fff";
     display: none !important;
 }
 
-/* Hide specific custom links inside the left tree view by matching their text content */
-#nav-tree li[data-label="about"],
-#nav-tree li[data-label="wiki"],
-#nav-tree li[data-label="docs"],
-#nav-tree li[data-label="license"] {
-    display: none !important;
-}
-
-/* Fallback for older Doxygen versions that don't use data-label */
-#nav-tree-contents li:has(a[href*="/about"]),
-#nav-tree-contents li:has(a[href*="/wiki"]) {
-    display: none !important;
-}
-
 #MSearchBox {
     float: left;
+}
+
+#main-nav {
+  background-color: white;
 }

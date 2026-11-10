@@ -1,9 +1,5 @@
 var NAVTREEINDEX0 =
 {
-"/about":[3],
-"/docs":[5],
-"/license":[6],
-"/wiki":[4],
 "ArcanaArchitectureSettings_8h.html":[2,0,0,0,1,4,0],
 "ArcanaArchitectureSettings_8h_source.html":[2,0,0,0,1,4,0],
 "ArcanaEditorSettings_8cpp.html":[2,0,0,0,0,2,0],
