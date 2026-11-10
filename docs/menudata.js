@@ -75,8 +75,4 @@ var menudata={children:[
 {text:"All",url:"globals.html"},
 {text:"Functions",url:"globals_func.html"},
 {text:"Enumerations",url:"globals_enum.html"},
-{text:"Macros",url:"globals_defs.html"}]}]},
-{text:"ABOUT",url:"/about"},
-{text:"WIKI",url:"/wiki"},
-{text:"DOCS",url:"/docs"},
-{text:"LICENSE",url:"/license"}]}
+{text:"Macros",url:"globals_defs.html"}]}]}]}
