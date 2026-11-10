@@ -90,10 +90,10 @@ $brand-color: "#903fff";
 }
 
 /* Hide specific custom links inside the left tree view by matching their text content */
-#nav-tree li[data-label="ABOUT"],
-#nav-tree li[data-label="WIKI"],
-#nav-tree li[data-label="DOCS"],
-#nav-tree li[data-label="LICENSE"] {
+#nav-tree li[data-label="about"],
+#nav-tree li[data-label="wiki"],
+#nav-tree li[data-label="docs"],
+#nav-tree li[data-label="license"] {
     display: none !important;
 }
 
@@ -101,4 +101,8 @@ $brand-color: "#903fff";
 #nav-tree-contents li:has(a[href*="/about"]),
 #nav-tree-contents li:has(a[href*="/wiki"]) {
     display: none !important;
+}
+
+#MSearchBox {
+    float: left;
 }
