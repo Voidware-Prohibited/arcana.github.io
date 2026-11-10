@@ -76,3 +76,29 @@ $brand-color: "#903fff";
 #main-nav > ul > li:nth-child(n+7) {
     display: inline-block !important;
 }
+
+/* Ensure custom links look correct in the top navbar navbar */
+.sm-dox a.custom-top-link {
+    font-weight: 600;
+}
+
+/* Hide the custom top links from the left-side treeview menu if they get generated there */
+#nav-tree .custom-top-link,
+#nav-tree-contents .custom-top-link,
+.ui-resizable-side .custom-top-link {
+    display: none !important;
+}
+
+/* Hide specific custom links inside the left tree view by matching their text content */
+#nav-tree li[data-label="Home"],
+#nav-tree li[data-label="Guides"],
+#nav-tree li[data-label="API Reference"],
+#nav-tree li[data-label="GitHub"] {
+    display: none !important;
+}
+
+/* Fallback for older Doxygen versions that don't use data-label */
+#nav-tree-contents li:has(a[href*="yourwebsite.com"]),
+#nav-tree-contents li:has(a[href*="github.com"]) {
+    display: none !important;
+}
