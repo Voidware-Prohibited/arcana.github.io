@@ -64,27 +64,15 @@ $brand-color: "#903fff";
     text-decoration: underline;
 }
 
-/* Optional: Force-hide the old navigation menu row if it still occupies space 
-#main-nav {
-    display: none !important;
-}
-
-
-#main-menu li:not(#searchBoxPos2) {
-    display: none!important;
-}
-*/
-
-/* Ensure custom external links follow the same aesthetic flow */
-#main-nav var a, #main-nav a[href^="http"] {
-    font-weight: 500;
-}
-
-/* Optional adjustment to prevent layout breaks on edge-case viewport scales */
-@media (max-width: 768px) {
-    .sm-dox {
-        /* Smooth vertical stack rules inside the mobile drawer */
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
+/* Target only the horizontal top nav bar (not the mobile hamburger or tree) */
+#main-nav > ul > li {
+    /* Step A: Hide the first 6 children (the stock tabs) from the horizontal row */
+    &:nth-child(-n+6) {
+        display: none !important;
     }
+}
+
+/* Ensure your custom links remain fully visible at all times */
+#main-nav > ul > li:nth-child(n+7) {
+    display: inline-block !important;
 }
