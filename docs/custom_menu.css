@@ -46,7 +46,7 @@
     grid-column: 1 / -1; /* Spans across all grid columns full width */
     grid-row: 2;         /* Positions directly on the second row below header elements */
     display: none;       /* Hidden by default */
-    width: 100%;
+    width: 15%;
     background-color: var(--page-background-color, #ffffff);
     border-top: 1px solid var(--separator-color, #e0e0e0);
     border-bottom: 1px solid var(--separator-color, #e0e0e0);
