@@ -98,6 +98,7 @@ $brand-color: "#903fff";
 }
 footer {
     background-color: #f2f2f2;
+    display: flow-root;
 }
 
 .footer-content {
