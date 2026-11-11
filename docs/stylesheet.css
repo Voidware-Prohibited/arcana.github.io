@@ -136,6 +136,7 @@ $brand-color: "#903fff";
     height: 100vh !important;
     max-height: 100vh !important;
     float: left;
+    margin-bottom: 31px;
 }
 
 /* Content Area Left and Right Margin */
