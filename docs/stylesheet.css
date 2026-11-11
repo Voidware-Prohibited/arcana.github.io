@@ -8,6 +8,7 @@ $brand-color: "#903fff";
 }
 #top {
     min-height: 63.84px!important;
+    height: 63.84px!important;
 }
 
 #title-area {
@@ -132,4 +133,10 @@ $brand-color: "#903fff";
 
 #doc-content {
     margin-right: 60px;
+}
+#top-nav ud ul {
+    display: inline-flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0 12px 0 0;
 }
