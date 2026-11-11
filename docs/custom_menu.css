@@ -5,9 +5,12 @@
     grid-template-columns: auto auto 1fr;
     grid-template-rows: auto auto; /* Row 1: Header items, Row 2: Expanded Menu */
     align-items: center;
-    gap: 12px;
     padding: 10px 16px;
     position: relative;
+}
+
+#top-nav-list {
+    gap: 24px;
 }
 
 /* Ensure project name/logo stays aligned on the top row, column 2 */
@@ -81,4 +84,8 @@
 #custom-dropdown-menu ul li a:hover {
     background-color: var(--primary-light-color, #f0f7ff);
     color: var(--primary-color, #4a90e2);
+}
+
+#top-nav-search{
+    padding-left: 10px;
 }
