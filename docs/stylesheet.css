@@ -16,6 +16,7 @@ $brand-color: "#903fff";
     flex-grow: 5!important;
     margin-left: 60px!important;
     margin-right: 60px!important;
+    padding-left: 0px!important;
 }
 
 #main-nav {
