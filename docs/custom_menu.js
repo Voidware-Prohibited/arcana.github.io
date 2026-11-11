@@ -1,7 +1,7 @@
 (function () {
     function initCustomMenu() {
         // 1. Target the precise internal container where Doxygen alignment resides
-        var projectAlign = document.getElementById("projectrow");
+        var projectAlign = document.getElementById("top-nav-button");
         var titleArea = document.getElementById("titlearea");
 
         if (!projectAlign || !titleArea) return;
