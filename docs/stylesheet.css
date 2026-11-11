@@ -131,7 +131,11 @@ $brand-color: "#903fff";
 }
 
 #side-nav {
-    height: auto;
+    position: sticky !important;
+    top: 0 !important;
+    height: 100vh !important;
+    max-height: 100vh !important;
+    float: left;
 }
 
 /* Content Area Left and Right Margin */
