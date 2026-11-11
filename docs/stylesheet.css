@@ -140,7 +140,7 @@ $brand-color: "#903fff";
 }
 
 #doc-content {
-    height: auto !important;
+    height: auto!important;
 }
 
 #doc-content div.contents {
