@@ -134,7 +134,7 @@ $brand-color: "#903fff";
 #doc-content {
     margin-right: 60px;
 }
-#top-nav-list {
+ul.top-nav-list {
     display: inline-flex;
     gap: 10px;
     list-style: none;
