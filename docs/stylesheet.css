@@ -2,6 +2,7 @@
 $theme-color: "snowwhite";
 $brand-color: "#903fff";
 
+/* Dark Light Them Toggle */
 .theme-toggle-btn {
     vertical-align: middle;
     display: inline;
@@ -98,6 +99,7 @@ $brand-color: "#903fff";
   background-color: white;
 }
 
+/* Footer */
 #footer {
     border-top: 1px solid #dedede;
 }
@@ -127,6 +129,7 @@ $brand-color: "#903fff";
     font-size: 9px;
 }
 
+/* Content Area Left and Right Margin */
 #side-nav {
     margin-left: 60px;
 }
@@ -134,6 +137,8 @@ $brand-color: "#903fff";
 #doc-content {
     margin-right: 60px;
 }
+
+/* Top Nav List */
 ul.top-nav-list {
     display: inline-flex;
     gap: 10px;
