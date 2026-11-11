@@ -130,12 +130,20 @@ $brand-color: "#903fff";
     font-size: 9px;
 }
 
+#side-nav {
+    height: auto;
+}
+
 /* Content Area Left and Right Margin */
 #nav-tree-contents {
     margin-left: 60px;
 }
 
 #doc-content {
+    height: auto !important;
+}
+
+#doc-content div.contents {
     margin-right: 60px;
 }
 
