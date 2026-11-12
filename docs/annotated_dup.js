@@ -1,7 +1,6 @@
 var annotated_dup =
 [
     [ "AArcanaWorldActorBase", "classAArcanaWorldActorBase.html", "classAArcanaWorldActorBase" ],
-    [ "AArcanaWorldVolume", "classAArcanaWorldVolume.html", "classAArcanaWorldVolume" ],
     [ "Arcana", "classArcana.html", "classArcana" ],
     [ "FArcanaArchitectureSettings", "structFArcanaArchitectureSettings.html", "structFArcanaArchitectureSettings" ],
     [ "FArcanaModule", "classFArcanaModule.html", "classFArcanaModule" ],

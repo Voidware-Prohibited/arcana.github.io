@@ -3,9 +3,6 @@ var hierarchy =
     [ "AActor", null, [
       [ "AArcanaWorldActorBase", "classAArcanaWorldActorBase.html", null ]
     ] ],
-    [ "AProceduralVolumeWithFalloffActor", null, [
-      [ "AArcanaWorldVolume", "classAArcanaWorldVolume.html", null ]
-    ] ],
     [ "FArcanaArchitectureSettings", "structFArcanaArchitectureSettings.html", null ],
     [ "FArcanaStateTreeTask_PlayContextualAnimInputs", "structFArcanaStateTreeTask__PlayContextualAnimInputs.html", [
       [ "FArcanaStateTreeTask_PlayContextualAnimInstanceData", "structFArcanaStateTreeTask__PlayContextualAnimInstanceData.html", null ]
