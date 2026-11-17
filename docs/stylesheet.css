@@ -8,8 +8,7 @@ $brand-color: "#903fff";
     display: inline;
 }
 #top {
-    min-height: 63.84px!important;
-    height: 63.84px!important;
+    height: 65px!important;
 }
 
 #titlearea {

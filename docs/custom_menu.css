@@ -9,6 +9,12 @@
     position: relative;
 }
 
+#top-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 #top-nav-list {
     gap: 24px;
 }
@@ -60,6 +66,9 @@
 
 #custom-dropdown-menu.open {
     display: block; /* Flips to block when JavaScript toggles class */
+    position: absolute;
+    top: 10px;
+    min-width: 120px;
 }
 
 /* Dropdown link item formatting */
@@ -88,4 +97,12 @@
 
 #top-nav-search{
     padding-left: 10px;
+    margin-top: 10px;
+}
+
+@media (width <= 801px) {
+    #titlearea {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
 }
