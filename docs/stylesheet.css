@@ -18,8 +18,8 @@
 
 #titlearea {
     flex-grow: 5!important;
-    margin-left: 60px!important;
-    margin-right: 60px!important;
+    margin-left: 60px;
+    margin-right: 60px;
     padding-left: 0px!important;
 }
 
@@ -225,7 +225,7 @@ li.navelem:first-child {
 
 @media screen and (max-width: 992px) {
     #titlearea {
-        margin: 0;
+        margin: 0!important;
     }
 }
 

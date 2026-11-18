@@ -9,10 +9,6 @@
     position: relative;
 }
 
-#top-nav-menu {
-    display: none;
-}
-
 #top-nav {
     position: absolute;
     top: 0;
@@ -117,10 +113,14 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 
     #titlearea {
         margin: 0 !important;
+    }
+
+    #top-nav-menu {
+        display: none;
     }
 
     #top-nav-button {
