@@ -121,11 +121,11 @@
 #footer {
     border-top: 1px solid #dedede;
     position: absolute;
-    width: -moz-available;
+    width: 100%;
 }
 
 .footer-content {
-    padding-top: 16px;
+    padding: 16px 0;
     width: 920px;
     height: 109px;
     margin: 0 auto;
@@ -134,6 +134,15 @@
 .footer-content *{
     font-size: 11px;
     line-height: 13px
+}
+
+.footer-content .wrapper a{
+    color: black!important;
+}
+
+.footer-content .wrapper a, .footer-content .wrapper * a:hover. .top-nav-list-selected {
+    text-decoration: underline!important;
+    text-underline-offset: 8px;
 }
 
 .footer-content ul{
@@ -187,6 +196,27 @@ ul.top-nav-list {
 #nav-path {
     height: 16px;
     overflow: hidden;
-    padding-top: 12px;
     margin-bottom: 12px;
 }
+
+#nav-path ul li:before, .navpath ul li:after {
+    background-image: none !important;
+    padding-right: 0 !important;
+    opacity: 0;
+}
+
+#nav-path li.navelem:has(.el)::after {
+    content: '/';
+}
+
+#nav-path ul li:not(:last-child)::after {
+    content: "/";
+    margin-left: 10px;
+    color: var(--page-foreground-color, #888);
+    opacity: 0.6;
+}
+
+li.navelem:first-child {
+    margin-left: 0!important;
+}
+
