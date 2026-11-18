@@ -9,6 +9,10 @@
     position: relative;
 }
 
+#top-nav-menu {
+    display: none;
+}
+
 #top-nav {
     position: absolute;
     top: 0;
@@ -137,7 +141,7 @@
     }
 
     #top-nav-menu.is-open {
-        display: flex; /* Change to 'flex' if your menu uses flexbox */
+        display: inline-flex !important; /* Change to 'flex' if your menu uses flexbox */
     }
 
     #MSearchResultsWindow {

@@ -1,7 +1,10 @@
 /* Style and alignment for your custom navigation links */
 :root {
     --theme-color: "snowwhite";
+    --theme-color-dark-mode: "snowwhite";
     --brand-color: "#903fff";
+    --brand-color-dark-mode: "#903fff";
+    --searchbar-height: 30px;
 }
 
 /* Dark Light Them Toggle */
@@ -218,5 +221,11 @@ ul.top-nav-list {
 
 li.navelem:first-child {
     margin-left: 0!important;
+}
+
+@media screen and (max-width: 767px) {
+    #titlearea {
+        margin: 0;
+    }
 }
 
