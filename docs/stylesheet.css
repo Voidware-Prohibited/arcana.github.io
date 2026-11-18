@@ -102,10 +102,12 @@ $brand-color: "#903fff";
 /* Footer */
 #footer {
     border-top: 1px solid #dedede;
+    margin: 0 60px;
 }
 
 .footer-content {
-    margin: 0 60px;
+    width: 920px;
+    margin: 0 auto;
 }
 
 .footer-content *{
@@ -133,6 +135,7 @@ $brand-color: "#903fff";
     position: sticky !important;
     top: 0 !important;
     float: left;
+    margin-bottom: 109px;
     /*height: 100vh !important;
     max-height: 100vh !important;
     margin-bottom: 31px;*/
