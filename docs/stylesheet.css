@@ -102,11 +102,13 @@ $brand-color: "#903fff";
 /* Footer */
 #footer {
     border-top: 1px solid #dedede;
+    height: 109px;
 }
 
 .footer-content {
     padding-top: 16px;
     width: 920px;
+    height: 109px;
     margin: 0 auto;
 }
 
@@ -165,5 +167,6 @@ ul.top-nav-list {
 #nav-path {
     height: 16px;
     overflow: hidden;
+    padding-top: 12px;
     margin-bottom: 12px;
 }
