@@ -140,6 +140,13 @@
         display: flex; /* Change to 'flex' if your menu uses flexbox */
     }
 
+    #MSearchResultsWindow {
+        display: flex;
+        top: 45px;
+        left: 305px;
+        position: absolute;
+    }
+
     ul.top-nav-list {
         display: flex;
         flex-direction: column;
