@@ -161,3 +161,9 @@
     }
 
 }
+
+@media screen and (max-width: 767px) {
+    #MSearchBox {
+        width: var(--searchbar-width);
+    }
+}
