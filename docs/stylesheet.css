@@ -132,10 +132,10 @@ $brand-color: "#903fff";
 #side-nav {
     position: sticky !important;
     top: 0 !important;
-    height: 100vh !important;
-    max-height: 100vh !important;
     float: left;
-    margin-bottom: 31px;
+    /*height: 100vh !important;
+    max-height: 100vh !important;
+    margin-bottom: 31px;*/
 }
 
 /* Content Area Left and Right Margin */
@@ -144,7 +144,7 @@ $brand-color: "#903fff";
 }
 
 #doc-content {
-    height: auto!important;
+    /*height: auto!important;*/
 }
 
 #doc-content div.contents {
