@@ -141,9 +141,8 @@
     }
 
     #MSearchResultsWindow {
-        display: flex;
-        top: 45px;
-        left: 305px;
+        top: 45px!important;
+        left: 305px!important;
         position: absolute;
     }
 
