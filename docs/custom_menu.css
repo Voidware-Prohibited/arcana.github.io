@@ -170,4 +170,7 @@
     #MSearchBox {
         width: var(--searchbar-width);
     }
+    #side-nav {
+        display: block !important;
+    }
 }
