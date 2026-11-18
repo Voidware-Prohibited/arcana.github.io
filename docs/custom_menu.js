@@ -33,10 +33,10 @@
         // Prepend inside the specific text cell so it snaps perfectly to the left of the project name
         projectAlign.prepend(hamburger);
         // Append full-width container directly to the root header bar wrapper
-        titleArea.appendChild(menuContainer);
+        // titleArea.appendChild(menuContainer);
 
         // 5. Setup Action Event Listeners
-        hamburger.addEventListener("click", function(e) {
+        /*hamburger.addEventListener("click", function(e) {
             e.stopPropagation();
             var isOpen = menuContainer.classList.toggle("open");
             hamburger.classList.toggle("active");
@@ -50,6 +50,15 @@
                 hamburger.classList.remove("active");
                 hamburger.setAttribute("aria-expanded", "false");
             }
+        });*/
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburgerBtn = document.getElementById('custom-hamburger-btn');
+            const topNavMenu = document.getElementById('top-nav-menu');
+
+            hamburgerBtn.addEventListener('click', () => {
+                const isOpen = topNavMenu.classList.toggle('is-open');
+                hamburgerBtn.setAttribute('aria-expanded', isOpen);
+            });
         });
     }
 
