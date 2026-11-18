@@ -112,3 +112,33 @@
         margin-right: 0px !important;
     }
 }
+
+@media screen and (max-width: 800px) {
+    #top-nav-menu {
+        position: fixed;
+        top: 60px;
+        left: 10px;
+        border: 1px solid #ded;
+        background-color: white;
+        border-radius: 5px;
+        z-index: 9999;
+        padding: 0px 16px 0px 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul.top-nav-list {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0x;
+        li {
+            margin-top: 12px;
+        }
+    }
+
+    #top-nav-search {
+        order: -1 !important;
+        margin: 12px 0;
+    }
+
+}
