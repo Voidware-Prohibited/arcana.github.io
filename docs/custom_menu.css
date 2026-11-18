@@ -115,6 +115,14 @@
 
 @media screen and (max-width: 800px) {
 
+    #titlearea {
+        margin: 0 !important;
+    }
+
+    #top-nav-button {
+        display: inline-flex;
+    }
+
     #top-nav-menu {
         position: fixed;
         top: 65px;
@@ -126,10 +134,10 @@
         padding: 0px 16px 0px 16px;
         display: none;
         flex-direction: column;
+    }
 
-        .is-open {
-            display: flex;
-        }
+    #top-nav-menu.is-open {
+        display: flex; /* Change to 'flex' if your menu uses flexbox */
     }
 
     ul.top-nav-list {
