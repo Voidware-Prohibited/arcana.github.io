@@ -102,7 +102,8 @@ $brand-color: "#903fff";
 /* Footer */
 #footer {
     border-top: 1px solid #dedede;
-    height: 109px;
+    position: absolute;
+    width: -moz-available;
 }
 
 .footer-content {
