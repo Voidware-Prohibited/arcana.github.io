@@ -18,6 +18,10 @@ $brand-color: "#903fff";
     padding-left: 0px!important;
 }
 
+.version-select-wrapper {
+    display: inline-flex;
+}
+
 #main-nav {
     flex-grow: 0!important;
 }
@@ -151,10 +155,11 @@ $brand-color: "#903fff";
 
 #doc-content {
     /*height: auto!important;*/
+    margin-right: 60px;
 }
 
 #doc-content div.contents {
-    margin-right: 60px;
+    /*margin-right: 60px;*/
 }
 
 /* Top Nav List */

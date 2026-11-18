@@ -104,7 +104,6 @@
     padding-left: 10px;
     display: inline-flex;
     vertical-align: middle;
-    padding-top: 10px;
 }
 
 @media (width <= 801px) {
