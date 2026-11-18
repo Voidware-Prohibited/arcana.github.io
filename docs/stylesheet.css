@@ -1,6 +1,8 @@
 /* Style and alignment for your custom navigation links */
-$theme-color: "snowwhite";
-$brand-color: "#903fff";
+:root {
+    --theme-color: "snowwhite";
+    --brand-color: "#903fff";
+}
 
 /* Dark Light Them Toggle */
 .theme-toggle-btn {
@@ -18,8 +20,20 @@ $brand-color: "#903fff";
     padding-left: 0px!important;
 }
 
-.version-select-wrapper {
+#version-select-wrapper {
     display: inline-flex;
+}
+
+#version-select-wrapper label{
+    font-size: 12px;
+}
+
+#version-select {
+    background: none;
+    border: none;
+    margin-right: 8px;
+    padding: 0;
+    font-size: 12px;
 }
 
 #main-nav {
@@ -46,7 +60,7 @@ $brand-color: "#903fff";
     font-family: Helvetica, Arial, Oswald, sans-serif!important;
     font-weight: 600!important;
     letter-spacing: -1px!important;
-    color: $brand-color!important;
+    color:var(--brand-color)!important;
     text-decoration: none;
 }
 /* Style and alignment for your custom navigation links */
