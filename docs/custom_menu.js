@@ -17,17 +17,17 @@
         // Lightweight SVG inline icon (Hamburger bars)
         hamburger.innerHTML = '<svg viewBox="0 0 24 24" width="24" height="24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" fill="currentColor"/></svg>';
 
-        // 3. Create the Custom Links Menu Content
-        var menuContainer = document.createElement("div");
-        menuContainer.id = "custom-dropdown-menu";
-        menuContainer.innerHTML = `
-            <ul>
-                <li><a href="/about">ABOUT</a></li>
-                <li><a href="/wiki">WIKI</a></li>
-                <li><a href="/docs">DOCS</a></li>
-                <li><a href="/license">LICENSE</a></li>
-            </ul>
-        `;
+        // // 3. Create the Custom Links Menu Content
+        // var menuContainer = document.createElement("div");
+        // menuContainer.id = "custom-dropdown-menu";
+        // menuContainer.innerHTML = `
+        //     <ul>
+        //         <li><a href="/about">ABOUT</a></li>
+        //         <li><a href="/wiki">WIKI</a></li>
+        //         <li><a href="/docs">DOCS</a></li>
+        //         <li><a href="/license">LICENSE</a></li>
+        //     </ul>
+        // `;
 
         // 4. Inject structural elements cleanly
         // Prepend inside the specific text cell so it snaps perfectly to the left of the project name

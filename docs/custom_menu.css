@@ -114,6 +114,7 @@
 }
 
 @media screen and (max-width: 800px) {
+
     #top-nav-menu {
         position: fixed;
         top: 65px;
@@ -123,8 +124,12 @@
         border-radius: 5px;
         z-index: 9999;
         padding: 0px 16px 0px 16px;
-        display: flex;
+        display: none;
         flex-direction: column;
+
+        .is-open {
+            display: flex;
+        }
     }
 
     ul.top-nav-list {
