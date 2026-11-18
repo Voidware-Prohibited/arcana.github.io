@@ -31,7 +31,7 @@
 
         // 4. Inject structural elements cleanly
         // Prepend inside the specific text cell so it snaps perfectly to the left of the project name
-        projectAlign.prepend(hamburger);
+        // projectAlign.prepend(hamburger);
         // Append full-width container directly to the root header bar wrapper
         // titleArea.appendChild(menuContainer);
 
