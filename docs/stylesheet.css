@@ -130,6 +130,10 @@
     display: none !important;
 }
 
+#nav-tree {
+    background-color: var(--page-background-color);
+}
+
 #MSearchBox {
     float: left;
 }
@@ -143,6 +147,15 @@
     border-top: 1px solid #dedede;
     position: absolute;
     width: 100%;
+}
+
+.footer-col-inner {
+    float: left;
+    width: 50%;
+}
+.footer-col-inner .footer-col {
+    width: fit-content;
+    margin: 0 auto;
 }
 
 .footer-content {
