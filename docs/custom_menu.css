@@ -9,6 +9,10 @@
     position: relative;
 }
 
+#top-nav-button {
+    display: none;
+}
+
 #top-nav {
     position: absolute;
     top: 0;

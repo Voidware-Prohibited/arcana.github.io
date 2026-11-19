@@ -3,9 +3,26 @@
     --font-family: Helvetica, Arial, Oswald, sans-serif;
     --theme-color: "#fff";
     --theme-color-dark-mode: "#000";
+    --bg-canvas: "#fff";
+    --bg-elevated-dark-mode: "#000";
+    --bg-elevated: "#fff";
+    --bg-elevated-dark-mode: "#000";
     --brand-color: "#903fff";
     --brand-color-dark-mode: "#903fff";
     --searchbar-height: 30px;
+
+    /* primary theme color. This will affect the entire websites color scheme: links, arrows, labels, ... */
+    --primary-color: #1779c4;
+    --primary-dark-color: #335c80;
+    --primary-light-color: #70b1e9;
+    --on-primary-color: #ffffff;
+
+    --link-color: var(--primary-color);
+
+    /* page base colors */
+    --page-background-color: #ffffff;
+    --page-foreground-color: #2f4153;
+    --page-secondary-foreground-color: #6f7e8e;
 }
 
 /* Dark Light Them Toggle */
@@ -176,15 +193,14 @@
 }
 
 
-
+/* Desktop */
 @media (width >= 992px) {
+
     /* Content Area Left and Right Margin */
     #nav-tree-contents {
         margin-left: 60px;
     }
-
     #doc-content {
-        /*height: auto!important;*/
         margin-right: 60px;
     }
 }
