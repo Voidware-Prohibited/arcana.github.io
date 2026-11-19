@@ -151,7 +151,7 @@ div.header .title {
 #footer {
     border-top: 1px solid #dedede;
     position: absolute;
-    /*width: 100%;*/
+    width: 100%;
     min-height: 150px;
 }
 
@@ -234,7 +234,8 @@ ul.top-nav-list {
 #nav-path {
     height: 16px;
     overflow: hidden;
-    margin-bottom: 12px;
+    margin-bottom: 34px;
+
 }
 
 #nav-path ul li:before, .navpath ul li:after {
