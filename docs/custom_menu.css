@@ -114,6 +114,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .footer-content .wrapper .footer-col-wrapper .footer-col{
+        width: 100% !important;
+        display: block;
+    }
 
     #titlearea {
         margin: 0 !important;

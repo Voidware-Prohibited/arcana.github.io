@@ -16,4 +16,18 @@
     } else {
         initCustomMenu();
     }
+
+    const hamburgerBtn = document.getElementById('custom-hamburger-btn');
+    const topNavMenu = document.getElementById('top-nav-menu');
+
+    // 2. Close menu when clicking anywhere outside the menu or button
+    document.addEventListener('click', (event) => {
+        const clickedInsideMenu = topNavMenu.contains(event.target);
+        const clickedButton = hamburgerBtn.contains(event.target);
+
+        if (!clickedInsideMenu && !clickedButton && topNavMenu.classList.contains('is-open')) {
+            topNavMenu.classList.remove('is-open');
+            hamburgerBtn.setAttribute('aria-expanded', 'false');
+        }
+    });
 })();

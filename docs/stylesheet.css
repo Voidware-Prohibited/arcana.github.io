@@ -1,7 +1,8 @@
 /* Style and alignment for your custom navigation links */
 :root {
-    --theme-color: "snowwhite";
-    --theme-color-dark-mode: "snowwhite";
+    --font-family: Helvetica, Arial, Oswald, sans-serif;
+    --theme-color: "#fff";
+    --theme-color-dark-mode: "#000";
     --brand-color: "#903fff";
     --brand-color-dark-mode: "#903fff";
     --searchbar-height: 30px;
@@ -128,7 +129,7 @@
 }
 
 .footer-content {
-    padding: 16px 0;
+    padding: 16px 30px;
     width: 920px;
     height: 109px;
     margin: 0 auto;
@@ -174,18 +175,18 @@
     margin-bottom: 31px;*/
 }
 
-/* Content Area Left and Right Margin */
-#nav-tree-contents {
-    margin-left: 60px;
-}
 
-#doc-content {
-    /*height: auto!important;*/
-    margin-right: 60px;
-}
 
-#doc-content div.contents {
-    /*margin-right: 60px;*/
+@media (width >= 992px) {
+    /* Content Area Left and Right Margin */
+    #nav-tree-contents {
+        margin-left: 60px;
+    }
+
+    #doc-content {
+        /*height: auto!important;*/
+        margin-right: 60px;
+    }
 }
 
 /* Top Nav List */
@@ -226,6 +227,10 @@ li.navelem:first-child {
 @media screen and (max-width: 992px) {
     #titlearea {
         margin: 0;
+    }
+
+    .footer-content {
+        width: 100%;
     }
 
     #nav-tree-contents{
