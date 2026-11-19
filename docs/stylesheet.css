@@ -151,7 +151,8 @@ div.header .title {
 #footer {
     border-top: 1px solid #dedede;
     position: absolute;
-    width: 100%;
+    /*width: 100%;*/
+    min-height: 150px;
 }
 
 .footer-col-inner {
@@ -164,9 +165,8 @@ div.header .title {
 }
 
 .footer-content {
-    padding: 16px 30px;
-    width: 920px;
-    height: 109px;
+    padding: 16px;
+    width: 900px;
     margin: 0 auto;
 }
 
