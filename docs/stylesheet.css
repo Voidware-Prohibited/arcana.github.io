@@ -58,6 +58,10 @@ html.dark-mode {
     }
 }
 
+select {
+    background-color: var(--searchbar-background) !important;
+}
+
 /* Dark Light Them Toggle */
 .theme-toggle-btn {
     vertical-align: middle;
@@ -172,7 +176,11 @@ html.dark-mode {
 }
 
 #main-nav {
-  background-color: white;
+  background-color: var(--page-background-color);
+}
+
+.top-nav-list li a, .top-nav-list li a:active, .top-nav-list li a:link, .top-nav-list li a:visited{
+    color: var(--primary-color)!important;
 }
 
 /* Content Section */
