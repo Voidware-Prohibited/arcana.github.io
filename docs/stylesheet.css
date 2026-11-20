@@ -16,7 +16,7 @@
     /* primary theme color. This will affect the entire websites color scheme: links, arrows, labels, ... */
     --primary-color: #903fff;
     --primary-dark-color: #903fff;
-    --primary-light-color: #70b1e9;
+    --primary-light-color: #903fff;
     --on-primary-color: #ffffff;
 
     /* Page element colors */
@@ -40,7 +40,8 @@ html.dark-mode {
     :root {
         /* Page Colors */
         --page-background-color: #000;
-        --side-nav-background: #282828;
+        --side-nav-background: #1e1e1e;
+        --side-nav-border: #383838;
         --page-foreground-color: #000;
         --page-secondary-foreground-color: #6f7e8e;
         --link-color: #1779c4;

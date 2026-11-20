@@ -134,7 +134,7 @@
         position: fixed;
         top: 65px;
         left: 8px;
-        border: 1px solid #ded;
+        border: 1px solid var(--side-nav-border);
         background-color: var(--side-nav-background);
         border-radius: 5px;
         z-index: 9999;
