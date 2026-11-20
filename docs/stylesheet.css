@@ -6,7 +6,7 @@
     --searchbar-height: 30px;
 
     /* Page Colors */
-    --page-background-color: #fff;
+    --page-background-color: #fff!important;
     --side-nav-background: #fbfbfb;
     --side-nav-border: #e8e8e8;
     --page-foreground-color: #000;
@@ -17,9 +17,9 @@
     /* primary theme color. This will affect the entire websites color scheme: links, arrows, labels, ... */
     --primary-brand-color: #903fff;
     --secondary-brand-color: #903fff;
-    --primary-color: #903fff;
-    --primary-dark-color: #903fff;
-    --primary-light-color: #903fff;
+    --primary-color: #1982d2;
+    --primary-dark-color: #1982d2;
+    --primary-light-color: #1982d2;
     --on-primary-color: #ffffff;
 
     /* Page element colors */
@@ -42,7 +42,7 @@
 html.dark-mode {
     :root {
         /* Page Colors */
-        --page-background-color: #000;
+        --page-background-color: #000!important;
         --side-nav-background: #1e1e1e;
         --side-nav-border: #383838;
         --page-foreground-color: #fff;
@@ -51,9 +51,9 @@ html.dark-mode {
 
         /* Brand Colors */
         /* primary theme color. This will affect the entire websites color scheme: links, arrows, labels, ... */
-        --primary-color: #903fff;
-        --primary-dark-color: #903fff;
-        --primary-light-color: #70b1e9;
+        --primary-color: #1982d2;
+        --primary-dark-color: #1982d2;
+        --primary-light-color: #1982d2;
         --on-primary-color: #ffffff;
 
         /* Page element colors */
