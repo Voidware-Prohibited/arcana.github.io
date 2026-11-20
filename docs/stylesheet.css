@@ -179,7 +179,7 @@ select {
   background-color: var(--page-background-color);
 }
 
-.top-nav-list li a, .top-nav-list li a:active, .top-nav-list li a:link, .top-nav-list li a:visited{
+.top-nav-list li a, .top-nav-list li a:link, .top-nav-list li a:visited, .top-nav-list li a:hover, .top-nav-list li a:focus, .top-nav-list li a:active {
     color: var(--primary-color)!important;
 }
 

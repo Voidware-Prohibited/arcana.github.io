@@ -23,11 +23,6 @@
     gap: 24px;
 }
 
-.top-nav-list li a:link, .top-nav-list li a:visited, .top-nav-list li a:hover, .top-nav-list li a:focus, .top-nav-list li a:active {
-    color: black !important;
-    text-underline-offset: 8px;
-}
-
 /* Ensure project name/logo stays aligned on the top row, column 2 */
 #titlearea > table {
     grid-column: 2;
