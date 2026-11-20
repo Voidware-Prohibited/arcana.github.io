@@ -8,12 +8,15 @@
     /* Page Colors */
     --page-background-color: #fff;
     --side-nav-background: #fbfbfb;
+    --side-nav-border: #e8e8e8;
     --page-foreground-color: #000;
     --page-secondary-foreground-color: #6f7e8e;
     --link-color: #1779c4;
 
     /* Brand Colors */
     /* primary theme color. This will affect the entire websites color scheme: links, arrows, labels, ... */
+    --primary-brand-color: #903fff;
+    --secondary-brand-color: #903fff;
     --primary-color: #903fff;
     --primary-dark-color: #903fff;
     --primary-light-color: #903fff;
@@ -42,7 +45,7 @@ html.dark-mode {
         --page-background-color: #000;
         --side-nav-background: #1e1e1e;
         --side-nav-border: #383838;
-        --page-foreground-color: #000;
+        --page-foreground-color: #fff;
         --page-secondary-foreground-color: #6f7e8e;
         --link-color: #1779c4;
 
@@ -119,7 +122,7 @@ select {
     font-family: Helvetica, Arial, Oswald, sans-serif!important;
     font-weight: 600!important;
     letter-spacing: -1px!important;
-    color:var(--primary-color)!important;
+    color:var(--primary-brand-color)!important;
     text-decoration: none;
 }
 /* Style and alignment for your custom navigation links */
@@ -181,7 +184,7 @@ select {
 }
 
 .top-nav-list li a, .top-nav-list li a:link, .top-nav-list li a:visited, .top-nav-list li a:hover, .top-nav-list li a:focus, .top-nav-list li a:active {
-    color: var(--primary-color)!important;
+    color: var(--primary-brand-color)!important;
 }
 
 /* Content Section */
@@ -218,7 +221,7 @@ div.header .title {
 }
 
 .footer-content .wrapper a{
-    color: var(--primary-color, #888)!important;
+    color: var(--primary-brand-color, #888)!important;
 }
 
 .footer-content .wrapper a, .footer-content .wrapper * a:hover. .top-nav-list-selected {
