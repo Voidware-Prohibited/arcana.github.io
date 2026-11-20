@@ -1,6 +1,6 @@
 /* Override Doxygen Awesome variables*/
 /*:root specificity (0-1-0) is higher than html's (0-0-1)*/
-:root {
+html {
     /* Style */
     --font-family: Helvetica, Arial, Oswald, sans-serif;
     --searchbar-height: 30px;
@@ -38,28 +38,27 @@
 
 }
 
+
 /* Colors */
 html.dark-mode {
-    :root {
-        /* Page Colors */
-        --page-background-color: #000!important;
-        --side-nav-background: #1e1e1e;
-        --side-nav-border: #383838;
-        --page-foreground-color: #fff;
-        --page-secondary-foreground-color: #6f7e8e;
-        --link-color: #1779c4;
+    /* Page Colors */
+    --page-background-color: #000!important;
+    --side-nav-background: #1e1e1e;
+    --side-nav-border: #383838;
+    --page-foreground-color: #fff;
+    --page-secondary-foreground-color: #6f7e8e;
+    --link-color: #1779c4;
 
-        /* Brand Colors */
-        /* primary theme color. This will affect the entire websites color scheme: links, arrows, labels, ... */
-        --primary-color: #1982d2;
-        --primary-dark-color: #1982d2;
-        --primary-light-color: #1982d2;
-        --on-primary-color: #ffffff;
+    /* Brand Colors */
+    /* primary theme color. This will affect the entire websites color scheme: links, arrows, labels, ... */
+    --primary-color: #1982d2;
+    --primary-dark-color: #1982d2;
+    --primary-light-color: #1982d2;
+    --on-primary-color: #ffffff;
 
-        /* Page element colors */
-        --code-background: #505050;
-        --fragment-background: #505050;
-    }
+    /* Page element colors */
+    --code-background: #505050;
+    --fragment-background: #505050;
 }
 
 select {
