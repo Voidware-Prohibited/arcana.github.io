@@ -1,28 +1,61 @@
-/* Style and alignment for your custom navigation links */
+/* Override Doxygen Awesome variables*/
+/*:root specificity (0-1-0) is higher than html's (0-0-1)*/
 :root {
+    /* Style */
     --font-family: Helvetica, Arial, Oswald, sans-serif;
-    --theme-color: "#fff";
-    --theme-color-dark-mode: "#000";
-    --bg-canvas: "#fff";
-    --bg-elevated-dark-mode: "#000";
-    --bg-elevated: "#fff";
-    --bg-elevated-dark-mode: "#000";
-    --brand-color: "#903fff";
-    --brand-color-dark-mode: "#903fff";
     --searchbar-height: 30px;
 
+    /* Page Colors */
+    --page-background-color: #fff;
+    --side-nav-background: #fbfbfb;
+    --page-foreground-color: #000;
+    --page-secondary-foreground-color: #6f7e8e;
+    --link-color: #1779c4;
+
+    /* Brand Colors */
     /* primary theme color. This will affect the entire websites color scheme: links, arrows, labels, ... */
-    --primary-color: #1779c4;
-    --primary-dark-color: #335c80;
+    --primary-color: #903fff;
+    --primary-dark-color: #903fff;
     --primary-light-color: #70b1e9;
     --on-primary-color: #ffffff;
 
-    --link-color: var(--primary-color);
+    /* Page element colors */
+    --code-background: #f5f5f5;
+    --fragment-background: #F8F9FA;
 
-    /* page base colors */
-    --page-background-color: #ffffff;
-    --page-foreground-color: #2f4153;
-    --page-secondary-foreground-color: #6f7e8e;
+    /* header colors */
+    --header-background: var(--page-background-color);
+    --header-foreground: var(--page-foreground-color);
+
+    /* searchbar colors */
+    --searchbar-background: var(--side-nav-background);
+    --searchbar-foreground: var(--page-foreground-color);
+
+    --toc-background: var(--side-nav-background);
+
+}
+
+/* Colors */
+html.dark-mode {
+    :root {
+        /* Page Colors */
+        --page-background-color: #000;
+        --side-nav-background: #282828;
+        --page-foreground-color: #000;
+        --page-secondary-foreground-color: #6f7e8e;
+        --link-color: #1779c4;
+
+        /* Brand Colors */
+        /* primary theme color. This will affect the entire websites color scheme: links, arrows, labels, ... */
+        --primary-color: #903fff;
+        --primary-dark-color: #903fff;
+        --primary-light-color: #70b1e9;
+        --on-primary-color: #ffffff;
+
+        /* Page element colors */
+        --code-background: #505050;
+        --fragment-background: #505050;
+    }
 }
 
 /* Dark Light Them Toggle */
@@ -81,7 +114,7 @@
     font-family: Helvetica, Arial, Oswald, sans-serif!important;
     font-weight: 600!important;
     letter-spacing: -1px!important;
-    color:var(--brand-color)!important;
+    color:var(--primary-color)!important;
     text-decoration: none;
 }
 /* Style and alignment for your custom navigation links */
@@ -176,7 +209,7 @@ div.header .title {
 }
 
 .footer-content .wrapper a{
-    color: black!important;
+    color: var(--primary-color, #888)!important;
 }
 
 .footer-content .wrapper a, .footer-content .wrapper * a:hover. .top-nav-list-selected {
