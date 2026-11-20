@@ -234,6 +234,7 @@ div.header .title {
 
 .footer-icon {
     width: 12px;
+    fill: var(--page-foreground-color, #fff)!important;
 }
 
 .footer-links {
