@@ -57,8 +57,8 @@ html.dark-mode {
     --on-primary-color: #ffffff;
 
     /* Page element colors */
-    --code-background: #505050;
-    --fragment-background: #505050;
+    --code-background: #1e1e1e;
+    --fragment-background: #1e1e1e;
 }
 
 select {
@@ -193,7 +193,7 @@ div.header .title {
 
 /* Footer */
 #footer {
-    border-top: 1px solid #dedede;
+    border-top: 1px solid var(--separator-color);
     position: absolute;
     width: 100%;
     min-height: 150px;
